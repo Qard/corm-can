@@ -1,0 +1,27 @@
+{
+  "name": "corm-can",
+  "version": "0.1.0",
+  "description": "Ability management for corm",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "keywords": [
+    "corm",
+    "ability",
+    "roles",
+    "access",
+    "acl",
+    "generators",
+    "harmony"
+  ],
+  "devDependencies": {
+    "co": "^3.0.6",
+    "corm": "^0.1.0",
+    "co-mocha": "0.0.4",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
+  }
+}
