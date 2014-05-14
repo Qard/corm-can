@@ -1,6 +1,6 @@
 {
   "name": "corm-can",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ability management for corm",
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "main": "index.js",
