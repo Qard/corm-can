@@ -1,5 +1,7 @@
 # corm-can
 
+[![build status](https://secure.travis-ci.org/Qard/corm-can.png)](http://travis-ci.org/Qard/corm-can) [![Coverage Status](https://coveralls.io/repos/Qard/corm-can/badge.png)](https://coveralls.io/r/Qard/corm-can)
+
 This module lets you attach a simple `can()` method to a model to perform generator-supported ability checking before doing secured operations. This is handy for things like validating that a user owns a post before allowing them to modify it, or making private messages only readable by those included in the conversation.
 
 Also of note, is that this is actually not tied to corm at all. It should work with any ORM where you can add methods to the prototype of a model. It's simply designed and tested specifically to work with corm.
